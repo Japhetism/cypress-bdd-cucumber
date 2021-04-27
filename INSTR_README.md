@@ -4,12 +4,7 @@ Install all the dependencies - npm install
 
 ## Create your login data
 
-Goto cypress/fixtures, add a new file called login.json
-sample json is 
-{
-    "email": "a@exmple.com,
-    "password": "password
-}
+Goto cypress/fixtures/login.json, and update the data to the correct login credentials
 
 ### To run the cypress with GUI
 
@@ -26,4 +21,3 @@ Add a new file to the root of the project called .gitignore
 add these files to gitignore
 
 node_modules/
-cypress/fixtures/login.json
