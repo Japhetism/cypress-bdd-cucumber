@@ -1,2 +1,2 @@
 node_modules/
-/cypress/fixtures/login.json
+/cypress/fixtures/login.json/
