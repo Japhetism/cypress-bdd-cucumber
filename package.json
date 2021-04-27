@@ -1,0 +1,24 @@
+{
+  "name": "bukunmi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress-run-cucumber": "cypress run --config-file cypress/cypress-cucumber.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^7.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/**/"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  }
+}

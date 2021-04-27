@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "PageLoadTimeout" : 1200000,
+    "responseTimeout" : 120000000,
+    "defaultCommandTimeout": 1200000000,
+    "env": {
+        "baseUrl": "https://vgnpc-servicemgrui.staging.vggdev.com",
+        "loginPath": "/login",
+        "homePath": "/home/clients"
+    }
+}
